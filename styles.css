@@ -1,0 +1,85 @@
+/* NOTE: layout start*/
+html{
+  height:100%;
+  padding: 1%;
+}
+
+
+body{
+  height: 100%;
+  padding: 3%;
+}
+
+
+nav{
+  float: left;
+  width: 10%;
+  height: 100%;
+  margin: 0%;
+}
+
+
+.layout {
+  height: 100%;
+  float: left;
+  width:100%;
+}
+
+.layout-inner{    float: right;
+    width: 88%;
+    height: 100%;
+}
+
+header{
+  width: 100%;
+  height: 10%;
+}
+
+
+.banner{
+  width: 50%;
+  height: 10%;
+  margin: 0px;
+  float: left;;
+}
+
+.ice{
+  height: 25%;
+  width: 50%;
+  float: left;
+  margin: 0px;
+}
+
+.i-c-e{
+  float: left;
+  height: 95%;
+  width: 31%;
+  margin: 1.5px;
+}
+
+.account{
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.recent-transaction{
+  float: right;
+  height: 88%;
+  margin-top: -23%;
+  width: 45%;
+}
+/* NOTE: layout end */
+li{
+  list-style: none;
+}
+.nav-button{
+  background-color: grey;
+  width: 100%;
+  border:solid;
+  height: 40px;
+}
+
+.nav-button:nth-child(1){
+  background-color: yellow;
+}
