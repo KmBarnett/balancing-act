@@ -4,6 +4,15 @@ html{
   padding: 1%;
 }
 
+*{
+  font-family: 'Biryani', sans-serif;
+  border-radius: 4px
+}
+
+
+p{
+  font-size: 12px
+}
 
 body{
   height: 100%;
@@ -23,12 +32,14 @@ nav{
   width: 5%;
   height: 100%;
   margin: 0%;
+  position: fixed;
 }
 
 
 .layout-inner{    float: right;
     width: 94%;
     height: 100%;
+    position: relative;
     background-color:#F5F5F5;
 }
 
@@ -46,7 +57,7 @@ h2{
 .banner{
   width: 50%;
   height: 10%;
-  margin: 0px;
+  margin: 1% 0px 1% 1%;
   float: left;
   background: linear-gradient(90deg, #8ED1DC 0%, #E3F4F6 100%);
   position: relative;
@@ -73,10 +84,10 @@ h2{
 
 
 .ice{
-  height: 25%;
+  height: 18%;
   width: 60%;
   float: left;
-  margin: 0px;
+  margin: 1%;
 }
 
 .i-c-e{
@@ -87,23 +98,37 @@ h2{
   background-color: white;
   text-align: center;
   padding: 0px;
+  position: relative;
 }
 
 
-.type,
-.amount{}
+.type{
+  text-transform: uppercase;
+  margin:22% 0% 0%;
+}
+
+
+.amount{
+  margin-top: 0%
+
+}
 
 .account{
   height: 50%;
-  width: 50%;
+  width: 47%;
   float: left;
+  margin-left: 1%;
 }
 
 .recent-transaction{
   float: right;
-  height: 88%;
-  margin-top: -23%;
+  height: 85%;
   width: 45%;
+  background-color: white;
+  position: absolute;
+  top: 12%;
+  right: 2%;
+  box-sizing: border-box;
 }
 /* NOTE: layout end */
 /* NOTE: Nav bar */
@@ -136,4 +161,72 @@ h2{
 
 .nav-button:nth-child(4){
   background-image: url('assets/icons/profile.svg')
+}
+
+
+.user-account{
+  height: 15%;
+  width: 100%;
+  background-color: white;
+  margin: 3% 0%;
+  position: relative;
+  padding-left: 10px;
+}
+
+.icon{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 20%
+}
+
+
+h3{
+  margin: 0% 0% 0% 4%;
+  font-size: 90%
+}
+
+
+.section-header{
+  position: relative;
+  width: 100%
+}
+
+
+.btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #1CA3BA;
+  border-color:  #1CA3BA;
+  border-radius: 15px;
+  color: white;
+  padding: 0px 5px;
+}
+
+
+.ac{
+  position: absolute;
+  display: inline;
+  margin: auto;
+  top: 30%
+}
+
+.name{
+  position: absolute;
+  left: 30%;
+}
+
+
+.type{
+  right: 2%
+}
+
+.section-header:last-child{
+  margin:3% 0% ;
+  box-sizing: border-box;
+}
+
+.trans{
+  right: 3%;
 }
