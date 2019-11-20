@@ -7,15 +7,7 @@ html{
 
 body{
   height: 100%;
-  padding: 3%;
-}
-
-
-nav{
-  float: left;
-  width: 10%;
-  height: 100%;
-  margin: 0%;
+  padding: 0%;
 }
 
 
@@ -25,9 +17,19 @@ nav{
   width:100%;
 }
 
+
+nav{
+  float: left;
+  width: 5%;
+  height: 100%;
+  margin: 0%;
+}
+
+
 .layout-inner{    float: right;
-    width: 88%;
+    width: 94%;
     height: 100%;
+    background-color:#F5F5F5;
 }
 
 header{
@@ -35,27 +37,61 @@ header{
   height: 10%;
 }
 
+h1,
+h2{
+  margin: 5px;
+}
+
 
 .banner{
   width: 50%;
   height: 10%;
   margin: 0px;
-  float: left;;
+  float: left;
+  background: linear-gradient(90deg, #8ED1DC 0%, #E3F4F6 100%);
+  position: relative;
 }
+
+.close-button{
+  background-image: url('assets/icons/close.svg');
+  float: right;
+  clear: left;
+  width: 10px;
+  height: 10px;
+  background-size: 100% 100%;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+h2{
+  float: left;
+  clear: right;
+}
+
 
 .ice{
   height: 25%;
-  width: 50%;
+  width: 60%;
   float: left;
   margin: 0px;
 }
 
 .i-c-e{
   float: left;
-  height: 95%;
-  width: 31%;
+  height: 88%;
+  width: 27%;
   margin: 1.5px;
+  background-color: white;
+  text-align: center;
+  padding: 0px;
 }
+
+
+.type,
+.amount{}
 
 .account{
   height: 50%;
@@ -70,16 +106,34 @@ header{
   width: 45%;
 }
 /* NOTE: layout end */
-li{
-  list-style: none;
-}
+/* NOTE: Nav bar */
 .nav-button{
-  background-color: grey;
   width: 100%;
-  border:solid;
-  height: 40px;
+  height: 12%;
+  background-size: 100% 100%;
+  border:none;
+  margin: 0%;
+  display: block;
+  padding: 0%;
 }
 
+
 .nav-button:nth-child(1){
-  background-color: yellow;
+  background-image: url('assets/icons/elephant.svg');
+  margin-bottom: 200%;
+}
+
+
+.nav-button:nth-child(2){
+  background-image: url('assets/icons/dashboard.svg')
+}
+
+
+.nav-button:nth-child(3){
+  background-image: url('assets/icons/credit-card.svg')
+}
+
+
+.nav-button:nth-child(4){
+  background-image: url('assets/icons/profile.svg')
 }
