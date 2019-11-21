@@ -276,3 +276,7 @@ th{
   top: 0;
   background-color: white;
 }
+
+#hulk{
+  display: block;
+}
