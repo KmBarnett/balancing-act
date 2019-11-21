@@ -10,7 +10,8 @@ html{
 }
 
 
-p{
+p,
+table{
   font-size: 12px
 }
 
@@ -118,6 +119,8 @@ h2{
   width: 47%;
   float: left;
   margin-left: 1%;
+  position: relative;
+  overflow-y: scroll;
 }
 
 .recent-transaction{
@@ -129,6 +132,7 @@ h2{
   top: 12%;
   right: 2%;
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 /* NOTE: layout end */
 /* NOTE: Nav bar */
@@ -168,9 +172,9 @@ h2{
   height: 15%;
   width: 100%;
   background-color: white;
-  margin: 3% 0%;
+  margin: 3% 0px;
   position: relative;
-  padding-left: 10px;
+  padding-left: 2px;
 }
 
 .icon{
@@ -182,20 +186,35 @@ h2{
 
 
 h3{
-  margin: 0% 0% 0% 4%;
+  margin: 2% 0% 0% 4%;
   font-size: 90%
 }
 
 
 .section-header{
-  position: relative;
-  width: 100%
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+
+.acheader{
+  background-color: #F5F5F5;
+  z-index: 1;
+}
+
+
+.rtheader{
+  margin:3% 0% ;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 2
 }
 
 
 .btn{
   position: absolute;
-  top: 0;
+  top: 2%;
   right: 0;
   background-color: #1CA3BA;
   border-color:  #1CA3BA;
@@ -222,11 +241,38 @@ h3{
   right: 2%
 }
 
-.section-header:last-child{
-  margin:3% 0% ;
-  box-sizing: border-box;
-}
 
 .trans{
   right: 3%;
+}
+
+table{
+  width: 95%;
+  height: 80%;
+  margin: 3%;
+  border-collapse: collapse;
+}
+
+
+.info{
+  overflow-y: scroll;
+}
+
+
+.tleft{
+  padding-right: 10%
+}
+
+.tright{
+  padding-left: 10%;
+}
+
+td{
+  border-bottom: solid 1px #F5F5F5;
+}
+
+th{
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
