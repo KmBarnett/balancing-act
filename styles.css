@@ -39,8 +39,7 @@ body{
 
 
 nav{
-  float: left;
-  width: 5%;
+  width: 90px;
   height: 100%;
   margin: 0%;
   position: fixed;
@@ -50,7 +49,7 @@ nav{
 
 
 .layout-inner{    float: right;
-    width: 94%;
+    width: 96%;
     height: 100%;
     position: relative;
     background-color:#F5F5F5;
@@ -109,7 +108,7 @@ section.ice{
   float: left;
   height: 88%;
   width: 30%;
-  margin: 1.5px;
+  margin: .25%;
   background-color: white;
   text-align: center;
   padding: 0px;
@@ -120,6 +119,8 @@ section.ice{
 .i-c-e:nth-child(1){
   margin-left: 4%
 }
+
+p:
 
 .type{
   text-transform: uppercase;
@@ -156,13 +157,14 @@ section.account{
 /* NOTE: layout end */
 /* NOTE: Nav bar */
 .nav-button{
-  width: 32px;
+  width: 39px;
   height: 40px;
   background-size: 100% 100%;
-  border:none;
+  border: none;
+  border-left:white solid 3px;
   margin: 5px 0px;
   display: block;
-  padding: 0%;
+  padding-left: 10px;
   border-radius: 0;
 }
 
@@ -176,9 +178,13 @@ section.account{
 .nav-button:nth-child(1){
   background-image: url('assets/icons/elephant.svg');
   margin-bottom: 200px;
-  width: 55px;
-  height: 55px;
-  margin-left: -12px
+  width: 65px;
+  height: 65px;
+  margin-left: -12px;
+}
+
+.home:hover{
+  border-left:none;
 }
 
 
@@ -194,6 +200,11 @@ section.account{
 
 .nav-button:nth-child(4){
   background-image: url('assets/icons/profile.svg');
+}
+
+
+.nav-slctd{
+  border-left: solid 4px #1CA3BA;
 }
 
 
@@ -250,6 +261,17 @@ h3{
   border-radius: 15px;
   color: white;
   padding: 0px 5px;
+}
+
+@media (min-width: 980px) {
+
+  .btn:hover{
+    transform: scale(2) scaleX(2) translate(-40px,0px);
+  }
+
+  .trans:hover{
+    transform: scale(2) scaleX(2) translate(-35px,0px);
+  }
 }
 
 
