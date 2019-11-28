@@ -185,120 +185,192 @@
         </section>
       </div>
       <div class="layout-inner hide" id="wlt">
-        <section class="recent-transaction dp-recent-transaction">
-          <table>
+        <section class= "page-header">
+          <h1 class="pgheader">Transactions</h1>
+          <button type="button" id="otflw" class="trbtn" name="Outflow">Outflow</button>
+          <button type="button" id="inflw" class="trbtn" name="Inflow">Inflow</button>
+          <button type="button" id="all" class="trbtn trbtn-seltd" name="All">All</button>
+        </section>
+        <section class="recent-transaction transaction">
+          <table class="dptr">
             <tbody>
               <tr class= "trow">
-                <th class= "tleft">Date</th>
-                <th class= "tleft">Payee</th>
-                <th class= "tright">Inflow</th>
-                <th class= "tright">Outflow</th>
+                <th class= "tleft teven">Date</th>
+                <th class= "tleft teven">Account</th>
+                <th class= "teven">Payee</th>
+                <th class= "tright inflw teven">Inflow</th>
+                <th class= "tright oflw teven">Outflow</th>
               </tr>
-              <!-- <div class=info>
-                <table>
-                  <tbody> -->
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                        <tr class= "trow">
-                          <td class= "tleft">na</td>
-                          <td class= "tleft">na</td>
-                          <td class= "tright">na</td>
-                          <td class= "tright">na</td>
-                        </tr>
-                  <!-- </tbody>
-                </table>
-              </div> -->
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright  teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright inflw teven">na</td>
+                <td class= "tright oflw teven">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright teven inflw">na</td>
+                <td class= "tright teven oflw">na</td>
+              </tr>
+              <tr class= "trow">
+                <td class= "tleft teven">na</td>
+                <td class= "tleft teven">na</td>
+                <td class= "teven">na</td>
+                <td class= "tright teven inflw">na</td>
+                <td class= "tright teven oflw">na</td>
+              </tr>
             </tbody>
           </table>
-      </section>
+        </section>
+        <section class= "form">
+          <h1 class="frmbx" >New Transaction</h1>
+          <div class="frmbx">
+            <p>Type of Transaction:</p>
+            <form class="trnsfrm" action="index.html" method="post">
+              <select class="frmp" name="">
+                <option value="Credit">Credit</option>
+                <option value="Checking">Checking</option>
+                <option value="Savings">Savings</option>
+              </select>
+            </form>
+          </div>
+          <div class="frmbx">
+            <p>Catagory:</p>
+            <form class="trnsfrm" action="index.html" method="post">
+              <select class="frmp" name="">
+                <option value="N/A">N/A</option>
+                <option value="N/A">N/A</option>
+                <option value="N/A">N/A</option>
+              </select>
+            </form>
+          </div>
+          <div class="frmbx">
+            <p>Account from:</p>
+            <form class="trnsfrm" action="index.html" method="post">
+              <select class="frmp" name="">
+                <option value="jsPoulated">jsPoulated</option>
+                <option value="jsPopulated">jsPopulated</option>
+                <option value="jsPopulated">jsPopulated</option>
+              </select>
+            </form>
+          </div>
+          <div class="frmbx">
+            <p>Payee:</p>
+            <form class="trnsfrm" action="index.html" method="post">
+              <input class="frmp" type="text" name="">
+            </form>
+          </div>
+          <div class="frmbx">
+            <p>Inflow:</p>
+            <form class="trnsfrm" action="index.html" method="post">
+              <input class="frmp" type="number" name="">
+            </form>
+          </div>
+          <div class="frmbx">
+            <p>Outflow:</p>
+            <form class="trnsfrm" action="index.html" method="post">
+              <input class="frmp" type="number" name="">
+            </form>
+          </div>
+          <div class="frmbx">
+            <button class="btn expns" type="button" name="button">Log Expense</button>
+          </div>
+        </section>
       </div>
       <div class="layout-inner hide" id="usr">
       </div>

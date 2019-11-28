@@ -60,3 +60,42 @@ btn1.addEventListener('click', btn1Click)
 btn2.addEventListener('click', btn2Click)
 btn3.addEventListener('click', btn3Click)
 }());
+
+
+(function() {
+ let btn1 = document.getElementById('all')
+ let btn2 = document.getElementById('inflw')
+ let btn3 = document.getElementById('otflw')
+
+ function handleTransClick(butn) {
+   if (butn === "1") {
+     btn1.classList.add("trbtn-seltd")
+     btn2.classList.remove("trbtn-seltd")
+     btn3.classList.remove("trbtn-seltd")
+
+   }
+   else if (butn === "2") {
+     btn1.classList.remove("trbtn-seltd")
+     btn2.classList.add("trbtn-seltd")
+     btn3.classList.remove("trbtn-seltd")
+   }
+   else if (butn === "3") {
+     btn1.classList.remove("trbtn-seltd")
+     btn2.classList.remove("trbtn-seltd")
+     btn3.classList.add("trbtn-seltd")
+   }
+ }
+
+  function btn1Click() {
+   handleTransClick('1')
+  }
+  function btn2Click() {
+    handleTransClick('2')
+  }
+  function btn3Click() {
+    handleTransClick('3')
+  }
+btn1.addEventListener('click', btn1Click)
+btn2.addEventListener('click', btn2Click)
+btn3.addEventListener('click', btn3Click)
+}());
